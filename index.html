@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />		
+		<title>PoC Services</title>		
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="./services.js"></script> 
+
+	<script id="sap-ui-bootstrap" 
+	    src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+	    data-sap-ui-theme="sap_belize" 
+	    data-sap-ui-libs="sap.m"
+	    data-sap-ui-bindingSyntax="complex" 
+	    data-sap-ui-compatVersion="edge"
+		data-sap-ui-preload="async"
+		data-sap-ui-resourceroots='{
+            "sap.ui.demo.wt": "./"
+	}'>
+      </script>
+    
+    
+	</head>
+
+	<body>
+		<div id="divId_pageBody">
+			
+<!-- ----------------------------------------- HEADER ----------------------------------------- -->				
+			<div id="divId_headerElem"></div>
+			
+<!-- ----------------------------------------- CONTENT ---------------------------------------- -->			
+			<div id="divId_completeDiv">
+				
+				<div id="divId_leftDiv">
+					
+		<!-- ----------------- SECTION: ADDITON ---------------------- -->
+				<a href="" id="button-1" class="ui-btn ui-icon-plus ui-btn-icon-left ui-corner-all" onmousedown="wsReqData1()">Materialdaten holen (AJAX)</a>
+				<a href="" id="button-2" class="ui-btn ui-icon-plus ui-btn-icon-left ui-corner-all" onmousedown="wsReqData2()">Materialdaten holen (ODATA -> nur VPN)</a>
+				</div>
+			</div>
+		</div>	
+		<div>
+		
+		</div>
+	</body>
+</html>
